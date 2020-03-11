@@ -10,7 +10,7 @@ namespace Consola
         static void Main(string[] args)
         {
             #region Ficha 6
-            Ficha6Solucao.Exercicio1();
+            //Ficha6Solucao.Exercicio1();
             //Ficha6Solucao.Exercicio2();
             //Ficha6Solucao.Exercicio3();
             //Ficha6Solucao.Exercicio4();
@@ -49,7 +49,12 @@ namespace Consola
             #endregion
             #region Ficha 9
 
-            Ficha9Solucao.Exercicio1_1();
+            //Ficha9Solucao.Exercicio1_1();
+            //Ficha9Solucao.Exercicio1_2();
+            //Ficha9Solucao.Exercicio1_3();
+            //Ficha9Solucao.Exercicio1_4();
+            //Ficha9Solucao.Exercicio1_5();
+            Ficha9Solucao.Exercicio1_6();
 
             #endregion
 
