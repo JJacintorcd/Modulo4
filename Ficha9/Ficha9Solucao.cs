@@ -89,7 +89,7 @@ namespace Ficha9
                 Console.WriteLine(":(");
         }
         #endregion
-        #region Exercicio 1.6
+        #region Exercicio 1.6 x
 
         public static void Exercicio1_6()
         {
