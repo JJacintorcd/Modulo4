@@ -50,11 +50,29 @@ namespace Ficha9
         
         public static void Exercicio1_4()
         {
-
+            Console.WriteLine("Limite de nrs primos?");
+            int nr = int.Parse(Console.ReadLine());
+            bool isPrime = true;
+            if (nr == 2)
+                Console.WriteLine(nr);
+            else
+            {
+                for (int i = 2; i < nr; i++)
+                {
+                    for (int j = 2; j < i; j++)
+                    {
+                        if (i % j == 0)
+                        {
+                            isPrime = false;
+                            break;
+                        }                       
+                    }
+                    if(isPrime == true)
+                        Console.WriteLine(i);                       
+                    isPrime = true;
+                }
+            }
         }
-
-
-
 
         #endregion
         #region Exercicio 1.5
@@ -77,6 +95,8 @@ namespace Ficha9
         {
             Console.WriteLine("Número entre 1 e 100?");
             int a = int.Parse(Console.ReadLine());
+
+
             
 
 
